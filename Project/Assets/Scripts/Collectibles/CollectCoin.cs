@@ -9,4 +9,5 @@ public class CollectCoin : MonoBehaviour
      	CollectableControl.coinCount += 1;
      	this.gameObject.SetActive(false);
      }
+     
 }

@@ -11,4 +11,5 @@ public class CollectableControl : MonoBehaviour
     {
         coinCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = "" + coinCount;
     }
+    
 }

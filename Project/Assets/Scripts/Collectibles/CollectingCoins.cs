@@ -17,6 +17,11 @@ public class CollectingCoins : MonoBehaviour
     	      Col.gameObject.SetActive(false);
     	}
     }
+
+    public void ResetCoinCount()
+    {
+        CollectableControl.coinCount = 0;
+    }
     // Update is called once per frame
     void Update()
     {
