@@ -10,6 +10,7 @@ public class ObstacleCollision : MonoBehaviour
     public GameObject charModel;
     public TextMeshProUGUI gameOverText;
     public Button restartButton;
+    public Button mainmenuButton;
 
     void OnTriggerEnter(Collider other)
     {	
@@ -25,6 +26,7 @@ public class ObstacleCollision : MonoBehaviour
         yield return new WaitForSeconds(1.5f); // 1.5-second delay
 
             gameOverText.gameObject.SetActive(true);
+            mainmenuButton.gameObject.SetActive(true);
             restartButton.gameObject.SetActive(true);
         
     }

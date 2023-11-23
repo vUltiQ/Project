@@ -67,4 +67,8 @@ public class PlayerMovement : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("maain");
+    }    
 }
